@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family= Dosis:wght@300 & display=swap');
+body {
+    font-family : 'Dosis', sans-serif ;
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+body .page {
+ margin: 20px 80px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    background-color: #141414;
+    padding: 10px 0px;
+}
+nav .onglets {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+} 
+nav .onglets a{
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 20px;
+    background-color: #ff6666;
+    border: none;
+    outline: none;
+}
+
+header {
+    margin-top: 150px;
+    background: url('plage1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+    font-size: 150px;
+}
+@media screen (max-width: 640px) {
+    body .page {
+        margin: 10px;
+    }
+    
+}
+
+body .position {
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+
+.position h1 {
+    font-size:150px;
+    text-align: center;
+}
+
+.position{
+    background: url('SN2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+.position h1 {
+    mix-blend-mode: overlay;
+    color: #fff;
+    flex-wrap: wrap;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+ 
+.produit {
+    background: url('lingerie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.produit h1 {
+    mix-blend-mode: overlay;
+    color: #fff;
+    flex-wrap: wrap;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-align: center;
+     }
+     
+     body .produit {
+        height: 100vh;
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+    }
+    
+    .produit h1 {
+        font-size:150px;
+        text-align: center;
+    }

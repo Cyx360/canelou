@@ -1,0 +1,44 @@
+.d1{
+    width: 900px;
+    height: 950px;
+    margin: auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fondu 30s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+.d1:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url("p20.png");}
+    5%{background-image: url("p19.jpg");}
+    10%{background-image: url("p17.jpeg");}
+    15%{background-image: url("p16.jpeg");}
+    20%{background-image: url("p15.jpeg");}
+    25%{background-image: url("p14.jpeg");}
+    30%{background-image: url("p13.jpeg");}
+    35%{background-image: url("p12.jpeg");}
+    40%{background-image: url("p10.jpeg");}
+    50%{background-image: url("p11.jpeg");}
+    60%{background-image: url("p9.jpeg");}
+    65%{background-image: url("p8.jpeg");}
+    70%{background-image: url("p7.jpeg");}
+    85%{background-image: url("p6.jpeg");}
+    90%{background-image: url("p5.jpeg");}
+    93%{background-image: url("p4.jpeg");}
+    95%{background-image: url("p3.jpeg");}
+    99%{background-image: url("p2.jpeg");}
+    100%{background-image: url("p1.jpeg");}
+}
+
+body {
+    background: url("plage1.jpg");
+    background-size: cover;
+}
